@@ -66,6 +66,11 @@ namespace MatchMaking.Database
             con.Close();
         }
 
+        public bool SessionIdValid(string sessionId)
+        {
+            throw new NotImplementedException("bool SessionIdValid() is not yet implemented, implement it yourself or wait until the author introduces it.");
+        }
+
         public SimulatedUserLookup GetUsernameWithGuid(string Guid)
         {
             con.Open();

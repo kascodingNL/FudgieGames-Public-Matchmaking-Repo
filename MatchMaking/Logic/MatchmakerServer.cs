@@ -144,7 +144,7 @@ namespace Matchmaking.Datatypes
             }
             else
             {
-                SentrySdk.CaptureMessage("Server was already initialized(Double initialize Exception?)", Sentry.Protocol.SentryLevel.Warning);
+                SentrySdk.CaptureMessage("Server was already initialized(Double initialize Exception?)", Sentry.SentryLevel.Warning);
                 Console.WriteLine("List already contained server!");
             }
         }
